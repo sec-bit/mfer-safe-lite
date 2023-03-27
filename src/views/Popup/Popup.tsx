@@ -113,7 +113,7 @@ const Popup = () => {
             <Checkbox
               checked={addrRandomize}
               onChange={event => setAddrRandomize(event.target.checked)}
-              label={'Randomize Address For Dapps'}
+              label={'Fake Account Address'}
             />
           </div>
         </div>
