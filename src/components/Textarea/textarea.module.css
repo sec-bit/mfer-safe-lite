@@ -1,0 +1,17 @@
+.textarea {
+  width: 100%;
+  padding: 0 8px;
+  border: 1px solid var(--color-standard-border);
+  color: var(--color-standard-text);
+  background-color: var(--color-standard);
+
+  &:disabled {
+    color: var(--color-disabled-text);
+    cursor: not-allowed;
+  }
+
+  &:not([disabled]):hover,
+  &:not([disabled]):focus {
+    border: 1px solid var(--color-primary);
+  }
+}

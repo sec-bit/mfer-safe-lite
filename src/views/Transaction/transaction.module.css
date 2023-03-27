@@ -1,0 +1,48 @@
+.transaction {
+  position: relative;
+  width: max(var(--width-main), 80vw);
+  margin: 0 auto;
+  background-color: var(--color-standard);
+}
+
+.inner {
+  padding: 16px;
+}
+
+.title {
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+  font-size: var(--font-size-xl);
+}
+
+.back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  color: var(--color-text);
+
+  &:hover,
+  &:focus {
+    background-color: var(--color-standard-hover);
+  }
+
+  &Icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.log {
+  display: block;
+
+  &Title {
+    margin: 8px 0;
+    font-size: var(--font-size-lg);
+    border-bottom: 1px solid var(--color-standard-border);
+  }
+}

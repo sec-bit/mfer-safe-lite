@@ -1,0 +1,59 @@
+.popup {
+  width: max(var(--width-main), 80vw);
+  margin: 0 auto;
+  background-color: var(--color-standard);
+}
+
+.inner {
+  padding: 16px;
+}
+
+.expand {
+  position: absolute;
+  top: 8px;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text);
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: var(--color-primary);
+    text-decoration: underline;
+  }
+
+  &Icon {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.settings {
+  position: relative;
+
+  &Title {
+    padding: 8px 0;
+    font-size: var(--font-size-lg);
+    border-bottom: 1px solid var(--color-standard-border);
+  }
+
+  &Item {
+    margin-bottom: 16px;
+
+    &Label {
+      font-size: var(--font-size-sm);
+    }
+
+    &Button {
+      margin-right: 8px;
+      width: 20px;
+      height: 20px;
+    }
+
+    &Icon {
+      color: var(--color-standard-text);
+    }
+  }
+}

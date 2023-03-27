@@ -1,0 +1,169 @@
+.transactions {
+  position: relative;
+
+  &Title {
+    padding: 8px 0;
+    font-size: var(--font-size-lg);
+    border-bottom: 1px solid var(--color-standard-border);
+  }
+}
+
+.action {
+  position: absolute;
+  top: 8px;
+  right: 0;
+  display: flex;
+  gap: 0 16px;
+  justify-content: flex-end;
+
+  &Button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover,
+    &:focus {
+      color: var(--color-primary);
+    }
+  }
+
+  &Icon {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.table {
+  padding: 16px 0;
+
+  &Action {
+    display: flex;
+    gap: 0 8px;
+  }
+
+  &Button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    width: 24px;
+    height: 24px;
+
+    &:hover,
+    &:focus {
+      background-color: var(--color-standard-hover);
+    }
+  }
+
+  &Icon {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.link {
+  color: var(--color-link);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--color-link-hover);
+    text-decoration: underline;
+  }
+}
+
+.confirm {
+  display: block;
+
+  &Body {
+    padding: 16px;
+    margin-bottom: 24px;
+  }
+
+  &Footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 8px 16px;
+    border-top: 1px solid var(--color-standard-border);
+    gap: 0 16px;
+  }
+}
+
+.edit {
+  width: 560px;
+
+  &Body {
+    padding: 16px;
+  }
+
+  &Item {
+    font-size: var(--font-size-sm);
+    margin-bottom: 16px;
+  }
+
+  &Label {
+    display: flex;
+    padding: 4px 0;
+  }
+
+  &Text {
+    font-size: var(--font-size-md);
+  }
+
+  &Footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 8px 16px;
+    border-top: 1px solid var(--color-standard-border);
+    gap: 0 16px;
+  }
+}
+
+.add {
+  width: 560px;
+
+  &Body {
+    padding: 16px;
+  }
+
+  &Item {
+    font-size: var(--font-size-sm);
+    margin-bottom: 16px;
+  }
+
+  &Label {
+    display: flex;
+    padding: 4px 0;
+  }
+
+  &Text {
+    font-size: var(--font-size-md);
+  }
+
+  &Footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 8px 16px;
+    border-top: 1px solid var(--color-standard-border);
+    gap: 0 16px;
+  }
+}
+
+.copy {
+  width: 560px;
+
+  &Body {
+    padding: 16px;
+  }
+
+  &Footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 8px 16px;
+    border-top: 1px solid var(--color-standard-border);
+    gap: 0 16px;
+  }
+}

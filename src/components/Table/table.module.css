@@ -1,0 +1,82 @@
+.wrapper {
+  width: 100%;
+
+  background: linear-gradient(
+      to right,
+      var(--color-standard) 30%,
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(to right, rgba(255, 255, 255, 0), var(--color-standard) 70%)
+      0 100%,
+    radial-gradient(
+      farthest-side at 0% 50%,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0)
+    ),
+    radial-gradient(
+        farthest-side at 100% 50%,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0)
+      )
+      0 100%;
+  background-repeat: no-repeat;
+  background-size: 40px 100%, 40px 100%, 14px 100%, 14px 100%;
+  background-position: 0 0, 100%, 0 0, 100%;
+  background-attachment: local, local, scroll, scroll;
+  z-index: 10;
+  overflow: auto;
+}
+
+.table {
+  width: 100%;
+  border-spacing: 0;
+  font-size: var(--font-size-sm);
+}
+
+.head {
+  margin: 0;
+
+  &Row {
+    margin: 0;
+  }
+
+  &Cell {
+    position: sticky;
+    top: 0;
+    background-color: var(--color-table-header-bg);
+    border-bottom: 1px solid var(--color-standard-border);
+    padding: 12px;
+    text-align: left;
+  }
+}
+
+.body {
+  margin: 0;
+
+  &Row {
+    margin: 0;
+  }
+
+  &Cell {
+    max-width: 368px;
+    padding: 12px;
+    border-bottom: 1px solid var(--color-standard-border);
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.pagination {
+  margin-top: 16px;
+  justify-content: flex-end;
+}
+
+.drag {
+  display: flex;
+  cursor: grab;
+
+  &Icon {
+    width: 24px;
+    height: 24px;
+  }
+}

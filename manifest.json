@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "MferSafe Lite",
+  "description": "MferSafe's Browser extension (no local node required)",
+  "version": "1.0.0",
+  "action": {
+    "default_icon": {
+      "128": "images/logo128.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "options_page": "settings.html",
+  "background": {
+    "service_worker": "src/background.ts"
+  },
+  "content_scripts": [
+    {
+      "js": ["src/content.ts"],
+      "matches": ["<all_urls>"],
+      "run_at": "document_start"
+    }
+  ],
+  "permissions": [
+    "cookies",
+    "storage",
+    "notifications",
+    "scripting"
+  ],
+  "host_permissions": ["<all_urls>"]
+}
