@@ -15,7 +15,7 @@ MferSafe Lite streamlines the process of bundling transactions on DEXs such as C
 
 ### Requirements
 
-1. MferNode backend: For simulating transaction bundles to get state diffs
+1. MferNode backend: Simulates transaction bundles and provides state diffs. You can host your own node using a simple Docker Compose setup. For more information, visit: https://github.com/sec-bit/mfer-node
 2. Web3 RPC: For `eth_call`, as some dApp frontends do not support state override (we recommend using Alchemy.com)
 
 ### Process
