@@ -21,10 +21,7 @@
     }
   ],
   "permissions": [
-    "cookies",
-    "storage",
-    "notifications",
-    "scripting"
+    "storage"
   ],
   "host_permissions": ["<all_urls>"]
 }
