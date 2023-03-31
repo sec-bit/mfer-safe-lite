@@ -33,7 +33,7 @@ To start using MferSafe Lite, follow these simple steps:
 3. Enable the "Fake Account Address" feature if desired.
 4. Begin using MferSafe Lite with your favorite dApps to create and simulate transaction bundles seamlessly.
 
-### MferNode RPC (Our node is for testing; you can self-host)
+### MferNode RPC (Our node is for testing; you can [self-host](https://github.com/sec-bit/mfer-node#build-instructions))
 
 | Chain                                                 | URL                                |
 | ----------------------------------------------------- | ---------------------------------- |
