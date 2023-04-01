@@ -28,7 +28,7 @@ MferSafe Lite streamlines the process of bundling transactions on DEXs such as C
 
 To start using MferSafe Lite, follow these simple steps:
 
-1. Install the MferSafe Lite browser extension on your preferred browser.
+1. Install the MferSafe Lite browser extension on your preferred browser [Chrome Webstore](https://chrome.google.com/webstore/detail/mfersafe-lite/pijjifejekgncdkllnapjphjhhfiklhk).
 2. Configure the required RPC URLs (MferNode backend and Web3 RPC) in the extension settings.
 3. Enable the "Fake Account Address" feature if desired.
 4. Begin using MferSafe Lite with your favorite dApps to create and simulate transaction bundles seamlessly.
